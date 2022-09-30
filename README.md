@@ -8,6 +8,7 @@ API simulando uma carteira de criptomoedas, envolvendo todas as operações de C
 - Java v. 11.0.12 - Linguagem de programação;
 - Spring Boot v. 2.7.0 - Framework para desenvolvimento Back-End;
 - JDBC - API para implementação de interação do banco de dados;
+- Spring Data JPA - Framework para acesso a dados com mapeamento objeto-relacional (ORM);
 - H2 e MySQL - SGBDs;
 - Apache Maven - Gerenciamento de dependências e build;
 - IntelliJ - IDE;
