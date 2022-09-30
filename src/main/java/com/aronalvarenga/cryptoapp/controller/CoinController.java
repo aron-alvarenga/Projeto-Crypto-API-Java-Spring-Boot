@@ -18,7 +18,7 @@ public class CoinController {
     @Autowired
     private CoinRepository coinRepository;
 
-    @Bean // Inserts iniciais para testes
+    /*@Bean // Inserts iniciais para testes
     public Coin init() {
 
         Coin c1 = new Coin();
@@ -44,7 +44,7 @@ public class CoinController {
         coinRepository.insert(c3);
 
         return c1;
-    }
+    }*/
 
     @GetMapping()
     public ResponseEntity get() {
