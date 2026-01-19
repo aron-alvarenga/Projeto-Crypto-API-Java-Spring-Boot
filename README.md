@@ -329,6 +329,13 @@ mvn test -Dtest=CoinControllerTest
 - [ ] Relatórios e dashboards
 - [ ] Exportação de dados (CSV/Excel)
 
+## Novo Direcionamento
+* Hoje é CRUD de transações. Transformar em **carteira com visão de portfólio**:
+  * Posição atual por ativo, preço médio, PnL realizado/não realizado.
+  * **Integração externa** de preço (pode mockar provider ou usar client com fallback).
+  * Idempotência + importação (CSV) + eventos.
+  * Segurança (JWT) e multiusuário (carteira por usuário).
+
 ## Contribuindo
 
 Este é um projeto de portfólio pessoal. Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
@@ -352,3 +359,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 **Nota**: Este projeto demonstra uma implementação prática e funcional de uma API REST usando Spring Boot, focando em simplicidade e boas práticas de desenvolvimento. O uso de H2 em desenvolvimento permite execução rápida sem necessidade de configuração de infraestrutura, enquanto a opção de MySQL garante robustez para ambientes de produção.
+
