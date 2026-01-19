@@ -1,6 +1,6 @@
 package com.aronalvarenga.cryptoapp.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 

@@ -3,7 +3,6 @@ package com.aronalvarenga.cryptoapp.controller;
 import com.aronalvarenga.cryptoapp.entity.Coin;
 import com.aronalvarenga.cryptoapp.repository.CoinRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
